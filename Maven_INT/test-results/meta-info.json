@@ -1,0 +1,19 @@
+{
+  "reports": [
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat29Dec18_1155AM",
+      "startTime": 1546064727356
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat29Dec18_1151AM",
+      "startTime": 1546064504974
+    },
+    {
+      "name": "Default suite",
+      "dir": "test-results/Sat29Dec18_1151AM",
+      "startTime": 1546064488583
+    }
+  ]
+}
