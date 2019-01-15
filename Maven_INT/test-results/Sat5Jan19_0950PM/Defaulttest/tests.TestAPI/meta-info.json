@@ -1,0 +1,98 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Btest",
+        "name": "btest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1546705212429,
+      "duration": 2901,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Test",
+        "name": "test",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1546705215394,
+      "duration": 5438,
+      "result": "fail",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Atest",
+        "name": "atest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1546705220922,
+      "duration": 566,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "BtestOiZwJkPnVH",
+        "name": "btest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1546705255520,
+      "duration": 2960,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "TestaKFSzRbuvd",
+        "name": "test",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1546705258546,
+      "duration": 11086,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "AtestMNiqmOsnqG",
+        "name": "atest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1546705269658,
+      "duration": 552,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

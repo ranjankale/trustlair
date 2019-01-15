@@ -1,0 +1,51 @@
+{
+  "methods": [
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Btest",
+        "name": "btest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1546708111590,
+      "duration": 3546,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Test",
+        "name": "test",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1546708115184,
+      "duration": 11189,
+      "result": "pass",
+      "passPer": 0.0
+    },
+    {
+      "index": 0,
+      "type": "config",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Atest",
+        "name": "atest",
+        "groups": [],
+        "description": ""
+      },
+      "dependsOn": [],
+      "startTime": 1546708126403,
+      "duration": 582,
+      "result": "pass",
+      "passPer": 0.0
+    }
+  ]
+}

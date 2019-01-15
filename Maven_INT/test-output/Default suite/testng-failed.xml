@@ -5,7 +5,9 @@
     <classes>
       <class name="tests.TestAPI">
         <methods>
+          <include name="btest"/>
           <include name="test"/>
+          <include name="atest"/>
         </methods>
       </class> <!-- tests.TestAPI -->
     </classes>

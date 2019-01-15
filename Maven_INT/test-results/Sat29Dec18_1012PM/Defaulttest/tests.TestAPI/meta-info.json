@@ -1,0 +1,19 @@
+{
+  "methods": [
+    {
+      "index": 1,
+      "type": "test",
+      "args": [],
+      "metaData": {
+        "resultFileName": "Test",
+        "name": "test",
+        "groups": []
+      },
+      "dependsOn": [],
+      "startTime": 1546101752939,
+      "duration": 6935,
+      "result": "fail",
+      "passPer": 0.0
+    }
+  ]
+}
