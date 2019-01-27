@@ -1,6 +1,16 @@
 {
   "reports": [
     {
+      "name": "Suite",
+      "dir": "test-results/Tue15Jan19_1017PM",
+      "startTime": 1547570873923
+    },
+    {
+      "name": "Suite",
+      "dir": "test-results/Tue15Jan19_1017PM",
+      "startTime": 1547570840492
+    },
+    {
       "name": "Default suite",
       "dir": "test-results/Sun6Jan19_0704PM",
       "startTime": 1546781647313

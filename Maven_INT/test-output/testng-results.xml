@@ -1,120 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="3" total="4" passed="1">
   <reporter-output>
     <line>
       <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
     </line>
-    <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to find element with xpath == //div[@id='pqr']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-8SHOMFNV', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21700/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 60ebd9e3-29d6-4d8a-b1c8-71d09db95153
-*** Element info: {Using=xpath, value=//div[@id='pqr']}</div></div>]]>
-    </line>
-    <line>
-      <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
-    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9651" started-at="2019-01-06T13:34:07Z" finished-at="2019-01-06T13:34:17Z">
+  <suite name="Suite" duration-ms="149" started-at="2019-01-15T16:47:54Z" finished-at="2019-01-15T16:47:54Z">
     <groups>
+      <group name="t1">
+        <method signature="A.t1()[pri:0, instance:tests.A@b7dd107]" name="t1" class="tests.A"/>
+      </group> <!-- t1 -->
+      <group name="t2">
+        <method signature="A.t1()[pri:0, instance:tests.A@b7dd107]" name="t1" class="tests.A"/>
+      </group> <!-- t2 -->
     </groups>
-    <test name="Default test" duration-ms="9651" started-at="2019-01-06T13:34:07Z" finished-at="2019-01-06T13:34:17Z">
-      <class name="tests.TestAPI">
-        <test-method status="PASS" signature="btest()[pri:0, instance:tests.TestAPI@7a30d1e6]" name="btest" is-config="true" duration-ms="2761" started-at="2019-01-06T13:34:07Z" finished-at="2019-01-06T13:34:10Z">
+    <test name="Test" duration-ms="149" started-at="2019-01-15T16:47:54Z" finished-at="2019-01-15T16:47:54Z">
+      <class name="tests.A">
+        <test-method status="PASS" signature="t1()[pri:0, instance:tests.A@b7dd107]" name="t1" duration-ms="33" started-at="2019-01-15T16:47:54Z" finished-at="2019-01-15T16:47:54Z">
           <reporter-output>
             <line>
               <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
             </line>
           </reporter-output>
-        </test-method> <!-- btest -->
-	dccc\\\
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[Unable to find element with xpath == //div[@id='pqr']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-8SHOMFNV', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21700/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 60ebd9e3-29d6-4d8a-b1c8-71d09db95153
-*** Element info: {Using=xpath, value=//div[@id='pqr']}]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to find element with xpath == //div[@id='pqr']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-8SHOMFNV', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21700/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 60ebd9e3-29d6-4d8a-b1c8-71d09db95153
-*** Element info: {Using=xpath, value=//div[@id='pqr']}
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
-at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
-at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
-at tests.TestAPI.test(TestAPI.java:33)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at org.testng.TestRunner.privateRun(TestRunner.java:648)
-at org.testng.TestRunner.run(TestRunner.java:505)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
-at org.testng.SuiteRunner.run(SuiteRunner.java:364)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
-at org.testng.TestNG.runSuites(TestNG.java:1049)
-at org.testng.TestNG.run(TestNG.java:1017)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
-          <reporter-output>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"><div  class="fail"><span class="fail-label">F </span>Unable to find element with xpath == //div[@id='pqr']
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'LAPTOP-8SHOMFNV', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
-Driver info: org.openqa.selenium.ie.InternetExplorerDriver
-Capabilities {acceptInsecureCerts: false, browserName: internet explorer, browserVersion: 11, javascriptEnabled: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:ieOptions: {browserAttachTimeout: 0, elementScrollBehavior: 0, enablePersistentHover: true, ie.browserCommandLineSwitches: , ie.ensureCleanSession: false, ie.fileUploadDialogTimeout: 3000, ie.forceCreateProcessApi: false, ignoreProtectedModeSettings: false, ignoreZoomSetting: false, initialBrowserUrl: http://localhost:21700/, nativeEvents: true, requireWindowFocus: false}, setWindowRect: true, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
-Session ID: 60ebd9e3-29d6-4d8a-b1c8-71d09db95153
-*** Element info: {Using=xpath, value=//div[@id='pqr']}</div></div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- test -->
-        <test-method status="PASS" signature="atest()[pri:0, instance:tests.TestAPI@7a30d1e6]" name="atest" is-config="true" duration-ms="540" started-at="2019-01-06T13:34:16Z" finished-at="2019-01-06T13:34:17Z">
-          <reporter-output>
-            <line>
-              <![CDATA[<div style="display:block;margin-left:10px;"></div>]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- atest -->
-      </class> <!-- tests.TestAPI -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- t1 -->
+      </class> <!-- tests.A -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
